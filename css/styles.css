@@ -1,0 +1,180 @@
+/*****TAG SELECTORS*****/
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+/* Heading */
+h1, h2, h3, h4, h5, h6{
+  font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/*****CLASS SELECTORS*****/
+/* Section */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Headings */
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Nav Bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Tittle Section */
+#tittle .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Tittle Images */
+.tittle-images{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* Download Buttons */
+.download-buttons{
+  margin: 5% 3% 5% 0;
+}
+
+/* Short Motivations */
+.short-motivation-tittles{
+  font-size: 1.5rem;
+}
+
+.motivations{
+  padding: 5%;
+}
+
+.motivation-icons{
+  color: #ef8172;
+  margin: 3% auto;
+}
+
+.motivation-icons:hover{
+  color: #ff4c68;
+}
+
+/* Testimonials */
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-pictures{
+  width: 10%;
+  border-radius: 100%;
+}
+
+.press-logos{
+  width: 15%;
+  margin: 1.25rem 1.25rem 3.125rem;
+}
+
+/* Pricing */
+.pricing-tittle{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.price-names{
+  font-size: 1.5rem;
+}
+
+.pricing-card{
+  padding: 3% 2%;
+}
+
+/* End Section */
+.ending-buttons{
+  margin-top: 3rem;
+}
+
+/* Footer */
+.social-media{
+  margin: 1%;
+}
+
+/*****ID SELECTORS*****/
+/* Tittle Section */
+#title{
+  text-align: left;
+}
+
+/* Short Motivations */
+#features{
+  position: relative;
+}
+
+/* Testimonial */
+#testimonials{
+  background-color: #ef8172;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+/* Pricing */
+#pricing{
+  padding: 6.25rem;
+}
+
+ @media (max-width: 1028px){
+
+   #tittle{
+     text-align: center;
+   }
+
+   .tittle-images{
+     position: static;
+     transform: rotate(0);
+   }
+
+ }
+
+/* End Section */
+#end{
+  font-size: 3rem;
+}
+
+/* Footer */
+#copyright{
+  line-height: 2.75;
+}
